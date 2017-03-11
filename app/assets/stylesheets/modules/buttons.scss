@@ -1,0 +1,38 @@
+.btn {
+  text-align: center;
+  border-radius: 3px;
+  font-family: $font-family-std;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+
+  &.btn-lg {
+    padding: 20px 35px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &.btn-pink {
+    background-color: $pink;
+    color: #FFFFFF;
+
+    &:hover, &:focus, &:active {
+
+      background-color: rgba($pink, 0.7);
+    }
+  }
+
+  &.btn-yellow {
+    background-color: $yellow;
+    color: $dark-grey;
+
+    &:hover, &:focus, &:active {
+      background-color: rgba($yellow, 0.7);
+    }
+  }
+}

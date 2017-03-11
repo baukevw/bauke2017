@@ -1,0 +1,15 @@
+#my-work {
+  background-color: $light-grey;
+  padding-bottom: 80px;
+
+  .work-holder {
+    height: 300px;
+    background-color: #d8d8d8;
+  }
+
+  .work-description {
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+  }
+}
